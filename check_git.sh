@@ -2,7 +2,7 @@
 
 echo "Checking for Git.."
 
-if command -v git &>dev/null; then
+if command -v git &>/dev/null; then
     echo "✅ Git is installed"
     exit 0
 else
